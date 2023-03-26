@@ -45,7 +45,7 @@ body {
     text-align: center;
     font-size: 2em;
     font-family: 'Edu NSW ACT Foundation', cursive;
-    color: rgb(238, 144, 81);
+    color: #ffae00;
 }
 
 
@@ -71,7 +71,6 @@ body {
 }
 
 .info-wrapper {
-    background-color: white;
     margin-top: 30px;
 }
 
@@ -80,6 +79,18 @@ body {
 }
 
 td {
-    background-color: brown;
-    width: 120px;
+    width: 60px;
+    height: 50px;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:20px;
+}
+
+.query {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.data {
+    color: #ffae00;
 }
