@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgb(109, 191, 226), rgb(108, 193, 226),rgb(33, 62, 73));
+}
+
+.location {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 2em;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+.art-wrapper {
+    display: flex;
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#art {
+    width: 85px;
+    height: 85px;
+}
+
+.weather-type-wrapper {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#weather-type {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.6em;
+}
+
+#hr {
+    color: white;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 3px;
+}
