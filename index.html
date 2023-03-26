@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,6 +28,10 @@
             <img src="./weather-images/sunny.jpg" alt="Weather Image" id="art">
         </div>
 
+        <div class="temperature-wrapper">
+            <h1 id="temperature">78&degF</h1>
+        </div>
+
         <div class="weather-type-wrapper">
             <h3 id="weather-type">
                 Sunny
@@ -33,6 +40,35 @@
     </header>
 
     <div id="hr"></div>
+
+    <div class="info-wrapper">
+        <table class="info-table">
+            <tr>
+                <td class="query">Local Time:</td>
+                <td class="data">10:52</td>
+            </tr>
+
+            <tr>
+                <td class="query">Feels Like:</td>
+                <td class="data">80&degF</td>
+            </tr>
+
+            <tr>
+                <td class="query">Precipitation:</td>
+                <td class="data">12</td>
+            </tr>
+
+            <tr>
+                <td class="query">Wind Speed:</td>
+                <td class="data">2mph</td>
+            </tr>
+
+            <tr>
+                <td class="query">Humidity:</td>
+                <td class="data">3%</td>
+            </tr>
+        </table>
+    </div>
 
     <script src="script.js"></script>
 </body>

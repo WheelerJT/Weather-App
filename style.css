@@ -41,6 +41,14 @@ body {
     height: 85px;
 }
 
+.temperature-wrapper {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: rgb(238, 144, 81);
+}
+
+
 .weather-type-wrapper {
     text-align: center;
     padding: 20px;
@@ -57,7 +65,21 @@ body {
 #hr {
     color: white;
     background-color: white;
-    width: 80%;
+    width: 600px;
     margin: 0 auto;
     height: 3px;
+}
+
+.info-wrapper {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.info-table {
+    margin: 0 auto;
+}
+
+td {
+    background-color: brown;
+    width: 120px;
 }
