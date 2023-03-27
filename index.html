@@ -23,7 +23,7 @@
     <header>
         <div class="location" >
             <h1 id="location">
-                Denver, CO
+                
             </h1>
         </div>
 
@@ -32,12 +32,12 @@
         </div>
 
         <div class="temperature-wrapper">
-            <h1 id="temperature">78&degF</h1>
+            <h1 id="temperature"></h1>
         </div>
 
         <div class="weather-type-wrapper">
-            <h3 id="weather-type">
-                Sunny
+            <h3 id="weatherType">
+                
             </h3>
         </div>
     </header>
@@ -46,38 +46,107 @@
 
     <div class="info-wrapper">
         <table class="info-table">
-            <tr>
-                <td class="query">Local Time:</td>
-                <td></td>
-                <td class="data">10:52</td>
-            </tr>
 
             <tr>
                 <td class="query">Feels Like:</td>
                 <td></td>
-                <td class="data">80&degF</td>
+                <td class="data" id="feelsLike"></td>
             </tr>
 
             <tr>
-                <td class="query">Precipitation:</td>
+                <td class="query">Low:</td>
                 <td></td>
-                <td class="data">12</td>
+                <td class="data" id="tempMin"></td>
+            </tr>
+
+            <tr>
+                <td class="query">High:</td>
+                <td></td>
+                <td class="data" id="tempMax"></td>
             </tr>
 
             <tr>
                 <td class="query">Wind Speed:</td>
                 <td></td>
-                <td class="data">2mph</td>
+                <td class="data" id="windSpeed"></td>
             </tr>
 
             <tr>
                 <td class="query">Humidity:</td>
                 <td></td>
-                <td class="data">3%</td>
+                <td class="data" id="humidity"></td>
             </tr>
         </table>
     </div>
+    <script>
+        let image = './weather-images/';
+        let time = new Date()
+        let hours = time.getHours();
 
-    <script src="script.js"></script>
+        if(hours < 5 || hours > 20) {
+            document.body.style.background = 'linear-gradient(rgb(33, 62, 73), rgb(24, 42, 48), rgb(9, 15, 18))';
+            document.getElementById('temperature').style.color = '#7cc8e6';
+            document.getElementById('feelsLike').style.color = '#7cc8e6';
+            document.getElementById('tempMin').style.color = '#7cc8e6';
+            document.getElementById('tempMax').style.color = '#7cc8e6';
+            document.getElementById('windSpeed').style.color = '#7cc8e6';
+            document.getElementById('humidity').style.color = '#7cc8e6';
+        }
+
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=Roseburg,us&appid=d4feaceb86e31dd85a2f7d4ae6933cee&units=imperial')
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                console.log(data);
+                document.getElementById('location').innerHTML = data.name + ', OR';
+                document.getElementById('temperature').innerHTML = data.main.temp.toString().slice(0, 2) + '&degF';
+                document.getElementById('weatherType').innerHTML = data.weather[0].main;
+                document.getElementById('feelsLike').innerHTML = data.main.feels_like.toString().slice(0, 2) + '&degF';
+                document.getElementById('tempMin').innerHTML = data.main.temp_min.toString().slice(0, 2) + '&degF';
+                document.getElementById('tempMax').innerHTML = data.main.temp_max.toString().slice(0, 2) + '&degF';
+                document.getElementById('windSpeed').innerHTML = data.wind.speed + 'mph';
+                document.getElementById('humidity').innerHTML = data.main.humidity + '%';
+                
+                switch(data.weather.main) {
+                    case 'Clear':
+                        if(hours < 5 || hours > 20) {
+                            image += 'night.jpg';
+                        } else {
+                            image += 'sunny.jpg';
+                        }
+                        break;
+                    case 'Clouds':
+                        image += 'cloudy.jpg';
+                        break;
+                    case 'Rain':
+                        image += 'raining.jpg';
+                        break;
+                    case 'Thunderstorm': 
+                        image += 'storm.jpg';
+                        break;
+                    case 'Snow': 
+                        image += 'snowing.jpg';
+                        break;
+                    case 'Drizzle': 
+                        image += 'raining.jpg';
+                        break;
+                    case 'Atmosphere': 
+                        image += 'misty.jpg'
+                        break;
+                    default:
+                        if(hours < 5 || hours > 20) {
+                            image += 'night.jpg';
+                        } else {
+                            image += 'sunny.jpg';
+                        }
+                        break;
+                }
+                document.getElementById('art').setAttribute('src', image);
+            })
+
+
+    </script>
+    
 </body>
 </html>
