@@ -20,24 +20,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="search-form-wrapper">
+        <form action="/search" method="get" id="search-form">
+            <input type="search" name="location-search" id="location-search" placeholder="Please Enter a City Name">
+            <button type="submit" id="search-button"></button>
+        </form>
+    </div>
+    
     <header>
         <div class="location" >
             <h1 id="location">
-                
+                Lorem, Ipsum
             </h1>
         </div>
 
         <div class="art-wrapper">
-            <img src="./weather-images/sunny.jpg" alt="Weather Image" id="art">
+            <img src="./images/sunny.jpg" alt="Weather Image" id="art">
         </div>
 
         <div class="temperature-wrapper">
-            <h1 id="temperature"></h1>
+            <h1 id="temperature">12&degF</h1>
         </div>
 
         <div class="weather-type-wrapper">
             <h3 id="weatherType">
-                
+                Dolor
             </h3>
         </div>
     </header>
@@ -49,37 +56,37 @@
 
             <tr>
                 <td class="query">Feels Like:</td>
-                <td></td>
-                <td class="data" id="feelsLike"></td>
+                <td class="spacer"></td>
+                <td class="data" id="feelsLike">12&degF</td>
             </tr>
 
             <tr>
                 <td class="query">Low:</td>
-                <td></td>
-                <td class="data" id="tempMin"></td>
+                <td class="spacer"></td>
+                <td class="data" id="tempMin">10&degF</td>
             </tr>
 
             <tr>
                 <td class="query">High:</td>
-                <td></td>
-                <td class="data" id="tempMax"></td>
+                <td class="spacer"></td>
+                <td class="data" id="tempMax">18&degF</td>
             </tr>
 
             <tr>
                 <td class="query">Wind Speed:</td>
-                <td></td>
-                <td class="data" id="windSpeed"></td>
+                <td class="spacer"></td>
+                <td class="data" id="windSpeed">3 mph</td>
             </tr>
 
             <tr>
                 <td class="query">Humidity:</td>
-                <td></td>
-                <td class="data" id="humidity"></td>
+                <td class="spacer"></td>
+                <td class="data" id="humidity"> 12%</td>
             </tr>
         </table>
     </div>
     <script>
-        let image = './weather-images/';
+        let image = './images/';
         let time = new Date()
         let hours = time.getHours();
 
@@ -105,10 +112,10 @@
                 document.getElementById('feelsLike').innerHTML = data.main.feels_like.toString().slice(0, 2) + '&degF';
                 document.getElementById('tempMin').innerHTML = data.main.temp_min.toString().slice(0, 2) + '&degF';
                 document.getElementById('tempMax').innerHTML = data.main.temp_max.toString().slice(0, 2) + '&degF';
-                document.getElementById('windSpeed').innerHTML = data.wind.speed + 'mph';
+                document.getElementById('windSpeed').innerHTML = (data.wind.speed).toString().slice(0,3) + ' mph';
                 document.getElementById('humidity').innerHTML = data.main.humidity + '%';
                 
-                switch(data.weather.main) {
+                switch(data.weather[0].main) {
                     case 'Clear':
                         if(hours < 5 || hours > 20) {
                             image += 'night.jpg';
