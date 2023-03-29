@@ -12,26 +12,53 @@ html {
 }
 
 body {
-    background: linear-gradient(rgb(109, 191, 226), rgb(108, 193, 226),rgb(33, 62, 73));
+    background:linear-gradient(rgb(109, 191, 226), rgb(108, 193, 226),rgb(33, 62, 73));
 }
 
+#loading-circle-wrapper{
+    display: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading-circle {
+    background-image: url('./images/loading-circle.svg');
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    animation: spin .3s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}  
+
 #title-wrapper {
-    margin: 100px auto;
+    margin: -20px auto;
     display: flex;
-    height:250px;
-    width: 250px;
-    border-radius: 100%;
-    background: radial-gradient(circle, rgb(243, 232, 131) 0%, rgb(255, 196, 0) 50%, rgba(194, 163, 79, 0.993) 70%);
+    height: 500px;
+    width: 500px;
+    background: url('./images/sun.svg');
     background-size: cover;
     text-align: center;
     justify-content: center;
     align-items: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 1.6em;
-    color: rgb(76, 139, 190);
-
+    color: #2a6dff;
 }
 
+#clouds {
+    bottom: -85px;
+    position: fixed;
+    height: 300px;
+    width: 100%;
+    background: url('./images/cloud.svg');
+    background-size: cover;
+}
 .search-form-wrapper {
     height: 60px;
     position: relative;

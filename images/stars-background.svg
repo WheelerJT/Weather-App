@@ -1,0 +1,4144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg21142"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="stars-background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview21144"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.73851712"
+     inkscape:cx="128.63615"
+     inkscape:cy="649.95108"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs21139">
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter24235"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-5"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-2" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-2" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-3"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-5" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-9"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-6" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-9" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-4"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-2" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-4"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-9" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-5" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-38"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-53" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-53"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-26" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-1" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-9"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-6" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-6"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-63" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-27" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-5"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-56" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-45"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-65" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-91" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-31"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-23" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-1"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-3" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-7" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-6"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-67" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-0"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-1" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-92" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-40"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-57" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-8"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-25" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-22" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-57"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-4" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-2"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-9" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-2" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-6"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-3" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-9"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-3" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-9" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-1"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-0" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-0"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-8" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-90" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-69"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-6" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-3"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-34" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-5" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-0"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-5" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-1"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-7" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-92" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-16"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-4" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-90"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-93" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-7" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-5"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-7" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-901"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-4" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-77" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-58"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-2" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-02"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-5" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-6" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-163"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-73" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-37"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-33" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-923" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-8"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-33" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-25"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-76" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-8" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-84"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-58" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-17"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-60" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-56" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-14"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-02" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-7"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-43" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-0" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-80"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-65" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-0"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-5" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-8" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-6"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-8" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-3"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-9" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-3" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-0"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-3" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-4"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-8" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-4" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-4"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-6" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-43"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-2" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-2" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-7"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-60" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-8"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-1" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-48" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-76"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-7" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-7"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-86" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-0" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-3"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-1" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-49"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-6" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-7" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-5"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-38" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-80"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-67" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-20" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-1"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-68" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-39"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-0" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-09" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-35"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-84" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-5"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-7" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-08" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-04"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-5" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-2"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-76" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-6" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-38"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-88" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-76"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-57" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-03" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-10"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-4" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-55"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-87" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-62" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-2"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-843" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-392"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-3" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-02" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-30"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-75" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-6"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-08" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-29" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-42"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-37" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-22"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-73" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-5" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-00"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-56" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-08"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-77" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-64" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-24"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-0" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-65"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-11" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-53" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-02"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-85" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-61"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-84" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-33" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-59"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-859" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-03"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-14" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-07" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-8"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-71" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-494"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-779" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-22" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-50"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-81" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-50"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-92" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-79" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-041"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-12" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-51"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-95" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-9" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-86"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-32" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-1"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-29" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-89" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-244"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-67" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-11"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-59" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-24" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-43"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-51" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-802"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-04" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-60" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-18"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-47" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-44"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-7795" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-70" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-85"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-849" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-35"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-69" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-39" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-36"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-64" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-18"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-731" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-27" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-305"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-2" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-06"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-37" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-242" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-37"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-03" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-31"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-62" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-74" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-9"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-9" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-501"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-79" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-92" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-60"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-46" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-27"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-09" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-21" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-607"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-21" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-01"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-23" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-51" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-77"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-86" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-9"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-34" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-794" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-26"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-74" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-52"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-26" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-81" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-83"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-23" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-97"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-591" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-84" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-44"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-69" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-88"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-66" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-63" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-78"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-04" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-26"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-99" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-73" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-73"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-83" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-265"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-867" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-1" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-23"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-70" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-07"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-85" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-208" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-17"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-80" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-28"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-98" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-67" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-74"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-59" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-03-73"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-0-05" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-26-58" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-12-20"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-1-10" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-5-0"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-2-0" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-2-0" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-3-9"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-5-9" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-5-3"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-2-4" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-2-3" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-3-6"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-5-2" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-5-2"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-2-1" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-2-2" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-3-66"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-5-8" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-5-5"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-2-9" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-2-1" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-3-65"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-5-5" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-7"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-3" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-2" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-1"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-9" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-3"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-9" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-8" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-2"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-5" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-6"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-4" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-6" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-4"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-4" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-66"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-5" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-3" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-8"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-3" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-4"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-39" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-7" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-9"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-38" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-65"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-394" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-5" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-7"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-6" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-67"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-1" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-1" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-89"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-8" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-1"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-58" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-76" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-49"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-81" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-5"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-0" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-27" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-18"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-7" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB"
+       id="filter24235-90-99-9"
+       x="-0.53657463"
+       y="-0.54017586"
+       width="2.0731493"
+       height="2.0803517">
+      <feGaussianBlur
+         stdDeviation="12.004677"
+         result="fbSourceGraphic"
+         id="feGaussianBlur24227-97-6-04" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur24229-77-79-70" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite24231-1-9-92"
+         k1="0"
+         k4="0" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend24233-0-71-76" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235)"
+       id="path23441"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,191.43117,5.1999027)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5)"
+       id="path23441-5"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,189.74088,30.517105)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-0)"
+       id="path23441-5-2"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,207.72732,121.20931)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-3)"
+       id="path23441-5-3"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,81.06224,138.18242)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-2)"
+       id="path23441-5-5"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,12.40976,94.862968)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-5)"
+       id="path23441-5-1"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,46.86266,53.06349)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-9)"
+       id="path23441-8"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,149.71471,33.557067)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-4)"
+       id="path23441-85"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,158.32794,7.7173887)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-53)"
+       id="path23441-6"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,97.02203,17.343936)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-6)"
+       id="path23441-56"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,72.19567,65.476669)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-45)"
+       id="path23441-2"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,35.71613,28.490463)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-1)"
+       id="path23441-23"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,117.28845,62.436706)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-0)"
+       id="path23441-7"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,132.99492,49.263537)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-8)"
+       id="path23441-28"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.05940206,0,0,0.06443275,124.88835,85.743082)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90)"
+       id="path23441-4"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,170.03971,58.035338)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-2)"
+       id="path23441-4-9"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,167.95303,42.13975)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-9)"
+       id="path23441-4-6"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,80.04746,53.792938)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-0)"
+       id="path23441-4-7"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,116.27367,21.873336)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-3)"
+       id="path23441-4-2"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,19.50154,112.05888)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-1)"
+       id="path23441-4-26"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,19.24821,52.272957)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-90)"
+       id="path23441-4-3"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,124.38024,113.0722)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-901)"
+       id="path23441-4-1"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,51.42115,106.99227)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-02)"
+       id="path23441-4-91"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,190.49941,95.845747)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99)"
+       id="path23441-4-4"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,154.77986,140.43186)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-7)"
+       id="path23441-4-4-8"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,26.65541,139.6791)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-3)"
+       id="path23441-4-4-5"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,32.74588,154.72615)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-6)"
+       id="path23441-4-4-2"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,60.690396,138.24605)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-66)"
+       id="path23441-4-4-3"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,198.9799,165.8323)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-4)"
+       id="path23441-4-4-9"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,179.27544,148.27742)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-65)"
+       id="path23441-4-4-6"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,169.60234,156.1592)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-67)"
+       id="path23441-4-4-80"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,134.49257,133.23037)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-1)"
+       id="path23441-4-4-1"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,189.3068,135.37995)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-5)"
+       id="path23441-4-4-33"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,189.3068,118.89985)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99-9)"
+       id="path23441-4-4-36"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,181.42502,67.309985)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-37)"
+       id="path23441-4-18"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,153.00655,91.032473)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-25)"
+       id="path23441-4-63"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,173.27296,117.63214)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-17)"
+       id="path23441-4-20"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,23.3015,14.780091)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-7)"
+       id="path23441-4-13"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.03558564,0,0,0.03590198,65.10098,28.713251)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03)"
+       id="path23441-4-184"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,98.17693,40.472625)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-0)"
+       id="path23441-4-184-2"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,120.15332,37.733492)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-3)"
+       id="path23441-4-184-0"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,90.26036,60.533208)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-4)"
+       id="path23441-4-184-22"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,92.79366,88.652857)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-43)"
+       id="path23441-4-184-9"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,86.71374,115.25252)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-8)"
+       id="path23441-4-184-3"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,69.74062,88.652857)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-7)"
+       id="path23441-4-184-06"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,102.16688,101.82603)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-49)"
+       id="path23441-4-184-02"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,152.07292,65.853141)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-80)"
+       id="path23441-4-184-04"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,129.01988,73.453047)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-39)"
+       id="path23441-4-184-6"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,171.32602,86.372885)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-5)"
+       id="path23441-4-184-20"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,195.64571,65.853141)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-2)"
+       id="path23441-4-184-7"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,182.47254,46.093388)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-76)"
+       id="path23441-4-184-8"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,205.52559,30.893577)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-55)"
+       id="path23441-4-184-05"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,175.63263,20.25371)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-392)"
+       id="path23441-4-184-80"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,133.57982,23.800333)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-6)"
+       id="path23441-4-184-4"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,82.1538,10.373833)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-22)"
+       id="path23441-4-184-45"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,45.92758,18.480399)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-08)"
+       id="path23441-4-184-025"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,31.99442,58.506566)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-65)"
+       id="path23441-4-184-61"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,54.03415,69.653094)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-61)"
+       id="path23441-4-184-86"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,25.15451,97.266083)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-03)"
+       id="path23441-4-184-62"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,33.76773,126.90571)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-494)"
+       id="path23441-4-184-72"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,45.67425,73.959707)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-50)"
+       id="path23441-4-184-23"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,13.75465,83.332923)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-51)"
+       id="path23441-4-184-5"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,60.87406,128.17236)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-1)"
+       id="path23441-4-184-21"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,115.84671,139.57222)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-11)"
+       id="path23441-4-184-92"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,151.31293,116.01252)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-802)"
+       id="path23441-4-184-867"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,168.03273,102.33269)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-44)"
+       id="path23441-4-184-76"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,10.71469,6.573881)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-35)"
+       id="path23441-4-184-33"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,66.44733,9.613843)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-18)"
+       id="path23441-4-184-85"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,67.46065,28.866936)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-06)"
+       id="path23441-4-184-75"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,81.39381,36.720171)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-31)"
+       id="path23441-4-184-81"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,123.19329,12.653805)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-501)"
+       id="path23441-4-184-724"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,155.61955,26.333634)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-27)"
+       id="path23441-4-184-56"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,141.43306,75.479688)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-01)"
+       id="path23441-4-184-925"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,48.46088,90.932829)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-9)"
+       id="path23441-4-184-1"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,72.27392,104.106)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-52)"
+       id="path23441-4-184-74"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,106.22016,121.07912)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-97)"
+       id="path23441-4-184-42"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,107.74014,5.81389)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-88)"
+       id="path23441-4-184-34"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,37.82102,3.533919)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-26)"
+       id="path23441-4-184-12"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,6.15475,33.426879)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-265)"
+       id="path23441-4-184-30"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,4.63476,63.066509)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-07)"
+       id="path23441-4-184-51"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,54.03415,44.573407)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-28)"
+       id="path23441-4-184-340"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,199.95233,51.159991)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-73)"
+       id="path23441-4-184-027"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(-0.01625786,0,0,0.01679699,202.48563,92.45281)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235)"
+       id="ellipse26411"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,18.054437,293.8772)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5)"
+       id="ellipse26413"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,19.744733,268.55999)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-0)"
+       id="ellipse26415"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,1.7582913,177.86779)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-3)"
+       id="ellipse26417"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,128.42337,160.89468)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-2)"
+       id="ellipse26419"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,197.07585,204.21413)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-5-5)"
+       id="ellipse26421"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,162.62295,246.01361)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-9)"
+       id="ellipse26423"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,59.7709,265.52003)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-4)"
+       id="ellipse26425"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,51.157675,291.35971)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-53)"
+       id="ellipse26427"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,112.46358,281.73316)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-6)"
+       id="ellipse26429"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,137.28994,233.60043)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-45)"
+       id="ellipse26431"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,173.76948,270.58664)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-1)"
+       id="ellipse26433"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,92.197163,236.64039)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-0)"
+       id="ellipse26435"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,76.490692,249.81356)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-8)"
+       id="ellipse26437"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.05940206,0,0,-0.06443275,84.597258,213.33402)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90)"
+       id="ellipse26439"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,39.445902,241.04176)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-2)"
+       id="ellipse26441"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,41.532585,256.93735)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-9)"
+       id="ellipse26443"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,129.43815,245.28416)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-0)"
+       id="ellipse26445"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,93.211941,277.20376)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-3)"
+       id="ellipse26447"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,189.98407,187.01822)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-1)"
+       id="ellipse26449"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,190.2374,246.80414)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-90)"
+       id="ellipse26451"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,85.105375,186.0049)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-901)"
+       id="ellipse26453"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,158.06446,192.08483)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-02)"
+       id="ellipse26455"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,18.9862,203.23135)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-99)"
+       id="ellipse26457"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,54.705754,158.64524)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-37)"
+       id="ellipse26459"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,56.479066,208.04463)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-25)"
+       id="ellipse26461"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,36.212652,181.44496)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-17)"
+       id="ellipse26463"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,186.18411,284.29701)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-7)"
+       id="ellipse26465"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.03558564,0,0,-0.03590198,144.38463,270.36385)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03)"
+       id="ellipse26467"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,111.30868,258.60447)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-0)"
+       id="ellipse26469"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,89.332288,261.34361)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-3)"
+       id="ellipse26471"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,119.22525,238.54389)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-4)"
+       id="ellipse26473"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,116.69195,210.42424)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-43)"
+       id="ellipse26475"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,122.77187,183.82458)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-8)"
+       id="ellipse26477"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,139.74499,210.42424)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-7)"
+       id="ellipse26479"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,107.31873,197.25107)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-49)"
+       id="ellipse26481"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,57.412686,233.22396)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-80)"
+       id="ellipse26483"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,80.465732,225.62405)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-39)"
+       id="ellipse26485"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,38.159593,212.70421)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-5)"
+       id="ellipse26487"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,13.839896,233.22396)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-2)"
+       id="ellipse26489"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,27.013066,252.98371)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-76)"
+       id="ellipse26491"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,3.9600213,268.18352)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-55)"
+       id="ellipse26493"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,33.85298,278.82339)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-392)"
+       id="ellipse26495"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,75.905789,275.27677)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-6)"
+       id="ellipse26497"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,127.33181,288.70327)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-22)"
+       id="ellipse26499"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,163.55803,280.5967)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-08)"
+       id="ellipse26501"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,177.49119,240.57053)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-65)"
+       id="ellipse26503"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,155.45146,229.42401)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-61)"
+       id="ellipse26505"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,184.3311,201.81102)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-03)"
+       id="ellipse26507"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,175.71788,172.17139)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-494)"
+       id="ellipse26509"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,163.81136,225.11739)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-50)"
+       id="ellipse26511"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,195.73096,215.74418)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-51)"
+       id="ellipse26513"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,148.61155,170.90474)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-1)"
+       id="ellipse26515"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,93.638901,159.50488)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-11)"
+       id="ellipse26517"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,58.172677,183.06458)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-802)"
+       id="ellipse26519"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,41.452885,196.74441)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-44)"
+       id="ellipse26521"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,198.77092,292.50322)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-35)"
+       id="ellipse26523"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,143.03828,289.46326)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-18)"
+       id="ellipse26525"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,142.02496,270.21016)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-06)"
+       id="ellipse26527"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,128.0918,262.35693)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-31)"
+       id="ellipse26529"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,86.292326,286.42329)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-501)"
+       id="ellipse26531"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,53.866064,272.74347)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-27)"
+       id="ellipse26533"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,68.052554,223.59741)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-01)"
+       id="ellipse26535"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,161.02473,208.14427)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-9)"
+       id="ellipse26537"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,137.21169,194.9711)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-52)"
+       id="ellipse26539"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,103.26545,177.99798)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-97)"
+       id="ellipse26541"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,101.74547,293.26321)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-88)"
+       id="ellipse26543"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,171.66459,295.54318)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-26)"
+       id="ellipse26545"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,203.33086,265.65022)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-265)"
+       id="ellipse26547"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,204.85085,236.01059)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-07)"
+       id="ellipse26549"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,155.45146,254.50369)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-28)"
+       id="ellipse26551"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,9.5332813,247.91711)" />
+    <ellipse
+       style="opacity:0.922747;mix-blend-mode:normal;fill:#ffffff;stroke:#ffffff;stroke-width:0;filter:url(#filter24235-90-03-73)"
+       id="ellipse26553"
+       cx="74.5187"
+       cy="61.083836"
+       rx="26.869724"
+       ry="26.69059"
+       transform="matrix(0.01625786,0,0,-0.01679699,6.9999813,206.62429)" />
+  </g>
+</svg>

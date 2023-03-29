@@ -20,9 +20,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="loading-circle-wrapper">
+        <div id="loading-circle"></div>
+    </div>
+
     <div id="title-wrapper">
         <h1>Weather<br>App</h1>
     </div>
+
+    <div id="clouds"></div>
+    </div>
+
     <div id="search-form-wrapper">
         <form method="get" id="search-form">
             <input type="search" name="location-search" id="location-search" placeholder="Please Enter a City Name">
@@ -103,6 +111,8 @@
         const titleWrapper = document.getElementById('title-wrapper');
         
         //elements
+        const clouds = document.getElementById('clouds');
+        const loadCircle = document.getElementById('loading-circle');
         const searchBox = document.getElementById('location-search');
         const searchButton = document.getElementById('search-button');
         const docLoc = document.getElementById('location');
@@ -114,11 +124,16 @@
         const docWS = document.getElementById('windSpeed');
         const docHum = document.getElementById('humidity');
 
-        if(hours > 1 || hours > 1) {
-            document.body.style.background = 'linear-gradient(rgb(33, 62, 73), rgb(24, 42, 48), rgb(9, 15, 18))';
+        if(hours <= 5 || hours == 20) {
+            document.body.style.background = 'url(images/stars-background.svg), linear-gradient(rgb(33, 62, 73), rgb(24, 42, 48), rgb(9, 15, 18))';
             titleWrapper.style.background = 'url(./images/moon.png)';
             titleWrapper.style.backgroundSize = 'cover';
             titleWrapper.style.color = 'rgb(5, 72, 134)'
+            titleWrapper.style.width = '250px';
+            titleWrapper.style.height = '250px';
+            titleWrapper.style.margin = '105px auto'
+            clouds.style.display = 'none';
+
             document.getElementById('temperature').style.color = '#7cc8e6';
             document.getElementById('feelsLike').style.color = '#7cc8e6';
             document.getElementById('tempMin').style.color = '#7cc8e6';
@@ -137,71 +152,87 @@
         searchBox.style.top = '50%';
         searchButton.style.top = '50%';
 
-        // searchButton.onclick = (event) => {
-        //     event.preventDefault();
+        searchButton.onclick = (event) => {
+            event.preventDefault();
 
-        //     value = document.getElementById('location-search').value;
-        //     value = value[0].toUpperCase() + value.toLowerCase().slice(1, value.length);
+            titleWrapper.style.display = 'none';
+            searchWrapper.style.display = 'none';
+            loadCircle.style.display = 'flex';
+
+            value = document.getElementById('location-search').value;
+            value = value[0].toUpperCase() + value.toLowerCase().slice(1, value.length);
 
             
 
-        //     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${value},us&appid=d4feaceb86e31dd85a2f7d4ae6933cee&units=imperial`)
-        //     .then(res => {
-        //         return res.json();
-        //     })
-        //     .then(data => {
-        //         console.log(data);
-        //         docLoc.innerHTML = data.name + ', U.S.';
-        //         docTemp.innerHTML = data.main.temp.toString().slice(0, 2) + '&degF';
-        //         docType.innerHTML = data.weather[0].main;
-        //         docFL.innerHTML = data.main.feels_like.toString().slice(0, 2) + '&degF';
-        //         docMin.innerHTML = data.main.temp_min.toString().slice(0, 2) + '&degF';
-        //         docMax.innerHTML = data.main.temp_max.toString().slice(0, 2) + '&degF';
-        //         docWS.innerHTML = data.wind.speed.toString().includes('.') ? (data.wind.speed).toString().slice(0, data.wind.speed.toString().indexOf('.') + 2) + ' mph' : data.wind.speed;
-        //         docHum.innerHTML = data.main.humidity + '%';
-        //
-        //         headerWrapper.style.display = 'block'
-        //
-        //
-        //      
-        //         switch(data.weather[0].main) {
-        //             case 'Clear':
-        //                 if(hours < 5 || hours > 20) {
-        //                     image += 'night.jpg';
-        //                 } else {
-        //                     image += 'sunny.jpg';
-        //                 }
-        //                 break;
-        //             case 'Clouds':
-        //                 image += 'cloudy.jpg';
-        //                 break;
-        //             case 'Rain':
-        //                 image += 'raining.jpg';
-        //                 break;
-        //             case 'Thunderstorm': 
-        //                 image += 'storm.jpg';
-        //                 break;
-        //             case 'Snow': 
-        //                 image += 'snowing.jpg';
-        //                 break;
-        //             case 'Drizzle': 
-        //                 image += 'raining.jpg';
-        //                 break;
-        //             case 'Atmosphere': 
-        //                 image += 'misty.jpg'
-        //                 break;
-        //             default:
-        //                 if(hours < 5 || hours > 20) {
-        //                     image += 'night.jpg';
-        //                 } else {
-        //                     image += 'sunny.jpg';
-        //                 }
-        //                 break;
-        //         }
-        //         document.getElementById('art').setAttribute('src', image);
-        //     })
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${value},us&appid=d4feaceb86e31dd85a2f7d4ae6933cee&units=imperial`)
+            .then(res => {
+                
+                return res.json();
+            })
+            .then(data => {
+                console.log(data);
+                docLoc.innerHTML = data.name + ', U.S.';
+                docTemp.innerHTML = data.main.temp.toString().slice(0, 2) + '&degF';
+                docType.innerHTML = data.weather[0].main;
+                docFL.innerHTML = data.main.feels_like.toString().slice(0, 2) + '&degF';
+                docMin.innerHTML = data.main.temp_min.toString().slice(0, 2) + '&degF';
+                docMax.innerHTML = data.main.temp_max.toString().slice(0, 2) + '&degF';
+                docWS.innerHTML = data.wind.speed.toString().includes('.') ? (data.wind.speed).toString().slice(0, data.wind.speed.toString().indexOf('.') + 2) + ' mph' : data.wind.speed;
+                docHum.innerHTML = data.main.humidity + '%';
+                
+
+                
+                searchWrapper.style.height = '60px';
+                searchBox.style.top = 'auto';
+                searchButton.style.top = 'auto';
+
+                loadCircle.style.display = 'none';
+                
+                searchWrapper.style.display = 'block';
+                headerWrapper.style.display = 'block';
+                infoWrapper.style.display = 'block';
+                hr.style.display = 'block';
+             
+                switch(data.weather[0].main) {
+                    case 'Clear':
+                        if(hours <= 5 || hours >= 20) {
+                            image += 'night.jpg';
+                        } else {
+                            image += 'sunny.jpg';
+                        }
+                        break;
+                    case 'Clouds':
+                        image += 'cloudy.jpg';
+                        break;
+                    case 'Rain':
+                        image += 'raining.jpg';
+                        break;
+                    case 'Thunderstorm': 
+                        image += 'storm.jpg';
+                        break;
+                    case 'Snow': 
+                        image += 'snowing.jpg';
+                        break;
+                    case 'Drizzle': 
+                        image += 'raining.jpg';
+                        break;
+                    case 'Atmosphere': 
+                        image += 'misty.jpg'
+                        break;
+                    default:
+                        if(hours < 5 || hours > 20) {
+                            image += 'night.jpg';
+                        } else {
+                            image += 'sunny.jpg';
+                        }
+                        break;
+                }
+                document.getElementById('art').setAttribute('src', image);
+            }).catch(err => {
+                
+            })
         
-        // }
+        }
     </script>
     
 </body>
