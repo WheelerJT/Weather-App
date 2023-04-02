@@ -25,11 +25,9 @@
     </div>
 
     <div id="title-wrapper">
-        <h1>Weather<br>App</h1>
+        <h1 id="title">Weather<br>App</h1>
     </div>
 
-    <div id="clouds"></div>
-    </div>
 
     <div id="search-form-wrapper">
         <form method="get" id="search-form">
@@ -37,80 +35,78 @@
             <button type="submit" id="search-button"></button>
         </form>
     </div>
-    
-    <header>
-        <div id="headerWrap">
-            <div class="location" >
-                <h1 id="location">
-                    Lorem, Ipsum
-                </h1>
-            </div>
+    <div class="bodyWrap" id="bodyWrap">
+        <header>
+            <div id="headerWrap">
+                
+                <div id="locationWrap">
+                    <div class="location" >
+                        <h1 id="location">
+                            Lorem, Ipsum
+                        </h1>
+                    </div>
+                </div>
 
-            <div class="art-wrapper">
-                <img src="./images/sunny.jpg" alt="Weather Image" id="art">
-            </div>
+                <div class="art-wrapper">
+                    <img src="./images/sunny.jpg" alt="Weather Image" id="art">
+                </div>
 
-            <div class="temperature-wrapper">
-                <h1 id="temperature">12&degF</h1>
-            </div>
+                <div class="temperature-wrapper">
+                    <h1 id="temperature">12&degF</h1>
+                </div>
 
-            <div class="weather-type-wrapper">
-                <h3 id="weatherType">
-                    Dolor
-                </h3>
+                <div class="weather-type-wrapper">
+                    <h3 id="weatherType">
+                        Dolor
+                    </h3>
+                </div>
             </div>
+        </header>
+
+        <div class="info-wrapper" id="infoWrap">
+            <table class="info-table">
+
+                <tr>
+                    <td class="query">Feels Like:</td>
+                    <td class="data" id="feelsLike">12&degF</td>
+                </tr>
+
+                <tr>
+                    <td class="query">Low:</td>
+                    <td class="data" id="tempMin">10&degF</td>
+                </tr>
+
+                <tr>
+                    <td class="query">High:</td>
+                    <td class="data" id="tempMax">18&degF</td>
+                </tr>
+
+                <tr>
+                    <td class="query">Wind Speed:</td>
+                    <td class="data" id="windSpeed">3 mph</td>
+                </tr>
+
+                <tr>
+                    <td class="query">Humidity:</td>
+                    <td class="data" id="humidity"> 12%</td>
+                </tr>
+            </table>
         </div>
-    </header>
-
-    <div id="hr"></div>
-
-    <div class="info-wrapper" id="infoWrap">
-        <table class="info-table">
-
-            <tr>
-                <td class="query">Feels Like:</td>
-                <td class="spacer"></td>
-                <td class="data" id="feelsLike">12&degF</td>
-            </tr>
-
-            <tr>
-                <td class="query">Low:</td>
-                <td class="spacer"></td>
-                <td class="data" id="tempMin">10&degF</td>
-            </tr>
-
-            <tr>
-                <td class="query">High:</td>
-                <td class="spacer"></td>
-                <td class="data" id="tempMax">18&degF</td>
-            </tr>
-
-            <tr>
-                <td class="query">Wind Speed:</td>
-                <td class="spacer"></td>
-                <td class="data" id="windSpeed">3 mph</td>
-            </tr>
-
-            <tr>
-                <td class="query">Humidity:</td>
-                <td class="spacer"></td>
-                <td class="data" id="humidity"> 12%</td>
-            </tr>
-        </table>
     </div>
+
+    <div id="clouds"></div>
+
     <script>
-        let image = './images/';
+        //Variables
         let time = new Date()
         let hours = time.getHours();
         let value;
-        //wrappers
+
+        //Elements
+        const bodyWrapper = document.getElementById('bodyWrap');
         const searchWrapper = document.getElementById('search-form-wrapper');
-        const headerWrapper = document.getElementById('headerWrap');
-        const infoWrapper = document.getElementById('infoWrap');
-        const hr = document.getElementById('hr');
         const titleWrapper = document.getElementById('title-wrapper');
-        
-        //elements
+        const title = document.getElementById('title');
         const clouds = document.getElementById('clouds');
         const loadCircle = document.getElementById('loading-circle');
         const searchBox = document.getElementById('location-search');
@@ -124,15 +120,17 @@
         const docWS = document.getElementById('windSpeed');
         const docHum = document.getElementById('humidity');
 
-        if(hours <= 5 || hours == 20) {
+        //Dynamic Background
+        if(hours <= 5 || hours >= 20) {
             document.body.style.background = 'url(images/stars-background.svg), linear-gradient(rgb(33, 62, 73), rgb(24, 42, 48), rgb(9, 15, 18))';
             titleWrapper.style.background = 'url(./images/moon.png)';
             titleWrapper.style.backgroundSize = 'cover';
-            titleWrapper.style.color = 'rgb(5, 72, 134)'
+            titleWrapper.style.color = 'rgb(5, 72, 140)'
             titleWrapper.style.width = '250px';
             titleWrapper.style.height = '250px';
             titleWrapper.style.margin = '105px auto'
             clouds.style.display = 'none';
+            bodyWrapper.style.background = 'rgba(255, 255, 255, 0.3)';
 
             document.getElementById('temperature').style.color = '#7cc8e6';
             document.getElementById('feelsLike').style.color = '#7cc8e6';
@@ -142,31 +140,82 @@
             document.getElementById('humidity').style.color = '#7cc8e6';
         }
 
-        //hiding elements
-        headerWrapper.style.display = 'none';
-        infoWrapper.style.display = 'none';
-        hr.style.display = 'none';
+        //Body Functions
+        function showBody() {
+            bodyWrapper.style.display = 'block';
+        }
+        
+        function hideBody() {
+            bodyWrapper.style.display = 'none';
+        }
 
-        //lower search box
-        searchWrapper.style.height = '100%';
-        searchBox.style.top = '50%';
-        searchButton.style.top = '50%';
+        //Loading Functions
+        function showLoad() {
+            loadCircle.style.display = 'block';
+        }
 
+        function hideLoad() {
+            loadCircle.style.display = 'none';
+        }
+
+        //Search Box Functions
+        function lowerSearch() {
+            searchWrapper.style.height = '50px';
+            searchBox.style.top = 'calc(50% + 25px)';
+            searchButton.style.top = 'calc(50% + 25px)';
+        }
+
+        function raiseSearch() {
+            searchWrapper.style.height = '50px';
+            searchBox.style.top = '0';
+            searchButton.style.top = '0';
+        }
+
+        function showSearch() {
+            searchWrapper.style.display = 'block';
+        }
+
+        function hideSearch() {
+            searchWrapper.style.display = 'none';
+        }
+
+        //Title Functions
+
+        function showTitle() {
+            titleWrapper.style.display = 'flex';
+        }
+
+        function hideTitle() {
+            titleWrapper.style.display = 'none';
+        }
+        
+        //Set Home Screen
+        hideBody();
+        hideLoad();
+        lowerSearch();
+
+        //Search Functionality
         searchButton.onclick = (event) => {
             event.preventDefault();
+            let image = './images/';
 
-            titleWrapper.style.display = 'none';
-            searchWrapper.style.display = 'none';
-            loadCircle.style.display = 'flex';
+            hideTitle();
+            hideSearch();
+            showLoad();
 
             value = document.getElementById('location-search').value;
-            value = value[0].toUpperCase() + value.toLowerCase().slice(1, value.length);
 
-            
+            if(value === '') {
+                showTitle();
+                showSearch();
+                hideLoad();
+                return;
+            }
+
+            value = value[0].toUpperCase() + value.toLowerCase().slice(1, value.length);
 
             fetch(`https://api.openweathermap.org/data/2.5/weather?q=${value},us&appid=d4feaceb86e31dd85a2f7d4ae6933cee&units=imperial`)
             .then(res => {
-                
                 return res.json();
             })
             .then(data => {
@@ -177,21 +226,17 @@
                 docFL.innerHTML = data.main.feels_like.toString().slice(0, 2) + '&degF';
                 docMin.innerHTML = data.main.temp_min.toString().slice(0, 2) + '&degF';
                 docMax.innerHTML = data.main.temp_max.toString().slice(0, 2) + '&degF';
-                docWS.innerHTML = data.wind.speed.toString().includes('.') ? (data.wind.speed).toString().slice(0, data.wind.speed.toString().indexOf('.') + 2) + ' mph' : data.wind.speed;
+                docWS.innerHTML = data.wind.speed.toString().includes('.') ? (data.wind.speed).toString().slice(0, data.wind.speed.toString().indexOf('.') + 2) + ' mph' : data.wind.speed + ' mph';
                 docHum.innerHTML = data.main.humidity + '%';
                 
-
-                
-                searchWrapper.style.height = '60px';
-                searchBox.style.top = 'auto';
-                searchButton.style.top = 'auto';
-
-                loadCircle.style.display = 'none';
-                
-                searchWrapper.style.display = 'block';
-                headerWrapper.style.display = 'block';
-                infoWrapper.style.display = 'block';
-                hr.style.display = 'block';
+                searchBox.style.border = 'none';
+                searchBox.value = '';
+                searchBox.placeholder = 'Please Enter a City Name';
+                hideLoad();
+                hideTitle();
+                raiseSearch();
+                showSearch();
+                showBody();
              
                 switch(data.weather[0].main) {
                     case 'Clear':
@@ -228,9 +273,19 @@
                         break;
                 }
                 document.getElementById('art').setAttribute('src', image);
-            }).catch(err => {
-                
+                return data;
             })
+            .catch(err => {
+                console.log(err);
+                showTitle();
+                hideLoad();
+                lowerSearch();
+                showSearch();
+                searchBox.style.border = '1px solid red'
+                searchBox.value = '';
+                searchBox.placeholder = 'Please Enter a Valid City Name';
+            })
+            
         
         }
     </script>
