@@ -1,5 +1,6 @@
 :root {
     --placeholder-color: rgba(0,0,0, 0.6);
+    --drodown-item-width: 40px;
 }
 
 html {
@@ -21,12 +22,13 @@ body {
 }
 
 #loading-circle-wrapper{
-    position: absolute;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    top: 50%;
 }
 
 #loading-circle {
@@ -34,7 +36,7 @@ body {
     background-size: cover;
     width: 60px;
     height: 60px;
-    animation: spin .3s linear infinite;
+    animation: spin .4s linear infinite;
 }
 
 @keyframes spin {
@@ -44,7 +46,8 @@ body {
 
 #title-wrapper {
     position: relative;
-    margin: -20px auto;
+    margin: 0 auto;
+    margin-bottom: -80px;
     display: flex;
     height: 500px;
     width: 500px;
@@ -63,33 +66,34 @@ body {
 #clouds {
     bottom: -85px;
     position: fixed;
-    height: 300px;
+    height: 280px;
     width: 100%;
     background: url('./images/cloud.svg');
     background-size: cover;
-    z-index: 1;
+    z-index: -1;
 }
 
 .search-form-wrapper {
     display: block;
-    height: 60px;
-    position: relative;
+    height: fit-content;
+    padding-bottom: 20px;
+    position: absolute;
 }
 
 #location-search {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 10px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.5);
-    width: 300px;
+    width: 350px;
     height: 30px;
     border: none;
-    border-radius: 100px;
-    text-align: center;
-    color: rgb(88, 88, 88);
+    border-radius: 15px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
     z-index: 1;
 }
 
@@ -111,7 +115,7 @@ body {
 
 #search-button {
     position: absolute;
-    left: calc(50% + 130px);
+    left: calc(50% + 155px);
     transform: translateX(-50%);
     margin-top: 14px;
     background-color: rgba(255, 255, 255, 0);
@@ -125,6 +129,70 @@ body {
 
 #search-button:hover {
     cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 350px;
+    margin: auto;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.677);
+    backdrop-filter: blur(4px);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 5;
+}
+
+.dropdown-item {
+    width: calc(320px);
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.dropdown-item:hover {
+    background: rgba(0, 0, 0, 0.098);
+    box-shadow: 15px 0 0 0 rgba(0, 0, 0, 0.098), -15px 0 0 0 rgba(0, 0, 0, 0.098);
+
+    cursor: pointer;
+}
+
+.dropdown-item:active {
+    background: rgba(0, 0, 0, 0.157);
+    box-shadow: 10px 0 0 0 rgba(0, 0, 0, 0.157), -10px 0 0 0 rgba(0, 0, 0, 0.157);
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-load-wrapper {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 30px;
+    width: 350px;
+    height: 103.5px;
+    background-color: rgba(255, 255, 255, 0.677);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 4;
+}
+
+#dropdown-load {
+    width: 25px;
+    height: 25px;
+    animation: spin .4s linear infinite;
 }
 
 .bodyWrap {
@@ -175,7 +243,8 @@ body {
 .temperature-wrapper {
     text-align: center;
     font-size: 2em;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
+    font-display: swap;
     color: #ffae00;
 }
 

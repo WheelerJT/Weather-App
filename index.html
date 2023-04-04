@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,9 +31,14 @@
 
     <div id="search-form-wrapper">
         <form method="get" id="search-form">
-            <input type="search" name="location-search" id="location-search" placeholder="Please Enter a City Name">
+            <input type="search" name="location-search" id="location-search" placeholder="Please Enter a City Name" autocomplete="off">
             <button type="submit" id="search-button"></button>
         </form>
+        <ul class="dropdown" id="dropdown">
+        </ul>
+        <div class="dropdown-load-wrapper" id="dropdown-load-wrapper">
+            <img src="./images/loading-circle-black.svg" alt="loading" id="dropdown-load">
+        </div>
     </div>
     <div class="bodyWrap" id="bodyWrap">
         <header>
@@ -41,8 +46,7 @@
                 
                 <div id="locationWrap">
                     <div class="location" >
-                        <h1 id="location">
-                            Lorem, Ipsum
+                        <h1 id="location"></h1>
                         </h1>
                     </div>
                 </div>
@@ -52,13 +56,11 @@
                 </div>
 
                 <div class="temperature-wrapper">
-                    <h1 id="temperature">12&degF</h1>
+                    <h1 id="temperature"></h1>
                 </div>
 
                 <div class="weather-type-wrapper">
-                    <h3 id="weatherType">
-                        Dolor
-                    </h3>
+                    <h3 id="weatherType"></h3>
                 </div>
             </div>
         </header>
@@ -68,27 +70,27 @@
 
                 <tr>
                     <td class="query">Feels Like:</td>
-                    <td class="data" id="feelsLike">12&degF</td>
+                    <td class="data" id="feelsLike"></td>
                 </tr>
 
                 <tr>
                     <td class="query">Low:</td>
-                    <td class="data" id="tempMin">10&degF</td>
+                    <td class="data" id="tempMin"></td>
                 </tr>
 
                 <tr>
                     <td class="query">High:</td>
-                    <td class="data" id="tempMax">18&degF</td>
+                    <td class="data" id="tempMax"></td>
                 </tr>
 
                 <tr>
                     <td class="query">Wind Speed:</td>
-                    <td class="data" id="windSpeed">3 mph</td>
+                    <td class="data" id="windSpeed"></td>
                 </tr>
 
                 <tr>
                     <td class="query">Humidity:</td>
-                    <td class="data" id="humidity"> 12%</td>
+                    <td class="data" id="humidity"></td>
                 </tr>
             </table>
         </div>
@@ -96,199 +98,7 @@
 
     <div id="clouds"></div>
 
-    <script>
-        //Variables
-        let time = new Date()
-        let hours = time.getHours();
-        let value;
-
-        //Elements
-        const bodyWrapper = document.getElementById('bodyWrap');
-        const searchWrapper = document.getElementById('search-form-wrapper');
-        const titleWrapper = document.getElementById('title-wrapper');
-        const title = document.getElementById('title');
-        const clouds = document.getElementById('clouds');
-        const loadCircle = document.getElementById('loading-circle');
-        const searchBox = document.getElementById('location-search');
-        const searchButton = document.getElementById('search-button');
-        const docLoc = document.getElementById('location');
-        const docTemp = document.getElementById('temperature');
-        const docType = document.getElementById('weatherType');
-        const docFL = document.getElementById('feelsLike');
-        const docMin = document.getElementById('tempMin');
-        const docMax = document.getElementById('tempMax');
-        const docWS = document.getElementById('windSpeed');
-        const docHum = document.getElementById('humidity');
-
-        //Dynamic Background
-        if(hours <= 5 || hours >= 20) {
-            document.body.style.background = 'url(images/stars-background.svg), linear-gradient(rgb(33, 62, 73), rgb(24, 42, 48), rgb(9, 15, 18))';
-            titleWrapper.style.background = 'url(./images/moon.png)';
-            titleWrapper.style.backgroundSize = 'cover';
-            titleWrapper.style.color = 'rgb(5, 72, 140)'
-            titleWrapper.style.width = '250px';
-            titleWrapper.style.height = '250px';
-            titleWrapper.style.margin = '105px auto'
-            clouds.style.display = 'none';
-            bodyWrapper.style.background = 'rgba(255, 255, 255, 0.3)';
-
-            document.getElementById('temperature').style.color = '#7cc8e6';
-            document.getElementById('feelsLike').style.color = '#7cc8e6';
-            document.getElementById('tempMin').style.color = '#7cc8e6';
-            document.getElementById('tempMax').style.color = '#7cc8e6';
-            document.getElementById('windSpeed').style.color = '#7cc8e6';
-            document.getElementById('humidity').style.color = '#7cc8e6';
-        }
-
-        //Body Functions
-        function showBody() {
-            bodyWrapper.style.display = 'block';
-        }
-        
-        function hideBody() {
-            bodyWrapper.style.display = 'none';
-        }
-
-        //Loading Functions
-        function showLoad() {
-            loadCircle.style.display = 'block';
-        }
-
-        function hideLoad() {
-            loadCircle.style.display = 'none';
-        }
-
-        //Search Box Functions
-        function lowerSearch() {
-            searchWrapper.style.height = '50px';
-            searchBox.style.top = 'calc(50% + 25px)';
-            searchButton.style.top = 'calc(50% + 25px)';
-        }
-
-        function raiseSearch() {
-            searchWrapper.style.height = '50px';
-            searchBox.style.top = '0';
-            searchButton.style.top = '0';
-        }
-
-        function showSearch() {
-            searchWrapper.style.display = 'block';
-        }
-
-        function hideSearch() {
-            searchWrapper.style.display = 'none';
-        }
-
-        //Title Functions
-
-        function showTitle() {
-            titleWrapper.style.display = 'flex';
-        }
-
-        function hideTitle() {
-            titleWrapper.style.display = 'none';
-        }
-        
-        //Set Home Screen
-        hideBody();
-        hideLoad();
-        lowerSearch();
-
-        //Search Functionality
-        searchButton.onclick = (event) => {
-            event.preventDefault();
-            let image = './images/';
-
-            hideTitle();
-            hideSearch();
-            showLoad();
-
-            value = document.getElementById('location-search').value;
-
-            if(value === '') {
-                showTitle();
-                showSearch();
-                hideLoad();
-                return;
-            }
-
-            value = value[0].toUpperCase() + value.toLowerCase().slice(1, value.length);
-
-            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${value},us&appid=d4feaceb86e31dd85a2f7d4ae6933cee&units=imperial`)
-            .then(res => {
-                return res.json();
-            })
-            .then(data => {
-                console.log(data);
-                docLoc.innerHTML = data.name + ', U.S.';
-                docTemp.innerHTML = data.main.temp.toString().slice(0, 2) + '&degF';
-                docType.innerHTML = data.weather[0].main;
-                docFL.innerHTML = data.main.feels_like.toString().slice(0, 2) + '&degF';
-                docMin.innerHTML = data.main.temp_min.toString().slice(0, 2) + '&degF';
-                docMax.innerHTML = data.main.temp_max.toString().slice(0, 2) + '&degF';
-                docWS.innerHTML = data.wind.speed.toString().includes('.') ? (data.wind.speed).toString().slice(0, data.wind.speed.toString().indexOf('.') + 2) + ' mph' : data.wind.speed + ' mph';
-                docHum.innerHTML = data.main.humidity + '%';
-                
-                searchBox.style.border = 'none';
-                searchBox.value = '';
-                searchBox.placeholder = 'Please Enter a City Name';
-                hideLoad();
-                hideTitle();
-                raiseSearch();
-                showSearch();
-                showBody();
-             
-                switch(data.weather[0].main) {
-                    case 'Clear':
-                        if(hours <= 5 || hours >= 20) {
-                            image += 'night.jpg';
-                        } else {
-                            image += 'sunny.jpg';
-                        }
-                        break;
-                    case 'Clouds':
-                        image += 'cloudy.jpg';
-                        break;
-                    case 'Rain':
-                        image += 'raining.jpg';
-                        break;
-                    case 'Thunderstorm': 
-                        image += 'storm.jpg';
-                        break;
-                    case 'Snow': 
-                        image += 'snowing.jpg';
-                        break;
-                    case 'Drizzle': 
-                        image += 'raining.jpg';
-                        break;
-                    case 'Atmosphere': 
-                        image += 'misty.jpg'
-                        break;
-                    default:
-                        if(hours < 5 || hours > 20) {
-                            image += 'night.jpg';
-                        } else {
-                            image += 'sunny.jpg';
-                        }
-                        break;
-                }
-                document.getElementById('art').setAttribute('src', image);
-                return data;
-            })
-            .catch(err => {
-                console.log(err);
-                showTitle();
-                hideLoad();
-                lowerSearch();
-                showSearch();
-                searchBox.style.border = '1px solid red'
-                searchBox.value = '';
-                searchBox.placeholder = 'Please Enter a Valid City Name';
-            })
-            
-        
-        }
-    </script>
+    <script src="./script.js" type="application/javascript"></script>
     
 </body>
 </html>
