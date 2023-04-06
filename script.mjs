@@ -35,8 +35,8 @@ if(hours <= 5 || hours >= 20) {
     titleWrapper.style.color = 'rgb(5, 72, 140)'
     titleWrapper.style.width = '250px';
     titleWrapper.style.height = '250px';
-    titleWrapper.style.margin = '130px auto'
-    titleWrapper.style.marginBottom = '40px';
+    titleWrapper.style.margin = '100px auto'
+    titleWrapper.style.marginBottom = '70px';
     clouds.style.display = 'none';
     bodyWrapper.style.background = 'rgba(255, 255, 255, 0.3)';
 
@@ -249,7 +249,7 @@ searchButton.onclick = (event) => {
         
         searchBox.style.border = 'none';
         searchBox.value = '';
-        searchBox.placeholder = 'Please Enter a City Name';
+        searchBox.placeholder = 'Search City';
         hideLoad();
         hideTitle();
         roundSearch();
