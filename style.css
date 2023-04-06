@@ -205,7 +205,6 @@ body {
     border-radius: 30px;
     padding-bottom: 5px;
     z-index: 2;
-    height: calc(100% - 90px);
 }
 
 #locationWrap {
@@ -269,7 +268,7 @@ body {
 
 .info-wrapper {
     width: 100%;
-    margin-bottom: 10px;
+    margin: 20px auto;
 }
 
 .info-table {

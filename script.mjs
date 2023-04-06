@@ -135,7 +135,7 @@ hideDropdownLoad();
 searchBox.addEventListener('keyup', () => {
     console.log('search value: ' + searchBox.value);
     value = searchBox.value;
-    if(value.length <= 3) {
+    if(value.length < 3) {
         hideDropdown();
         hideDropdownLoad();
         roundSearch();
@@ -146,7 +146,7 @@ searchBox.addEventListener('keyup', () => {
     unroundSearch();
     showDropdownLoad();
 
-    if(value.length > 3) {
+    if(value.length >= 3) {
         let city;
         let state;
 
