@@ -1,3 +1,5 @@
+import { apiKey } from "./key.mjs";
+
 //Elements
 const bodyWrapper = document.getElementById('bodyWrap');
 const searchWrapper = document.getElementById('search-form-wrapper');
@@ -24,6 +26,7 @@ let hours = time.getHours();
 let value;
 let latLong;
 let locationDisplayName;
+const key = apiKey;
 
 //Dynamic Background
 if(hours >= 5 || hours >= 20) {
@@ -144,80 +147,84 @@ hideDropdownLoad();
 
 //Search Functionality
 searchBox.addEventListener('keyup', () => {
-    setTimeout(() => {
-        value = searchBox.value;
+    console.log('search value: ' + searchBox.value);
+    value = searchBox.value;
+    if(value.length <= 3) {
+        hideDropdown();
+        hideDropdownLoad();
+        roundSearch();
+        return;
+    }
 
-        if(value.length <= 3) {
-            hideDropdown();
-            hideDropdownLoad();
-            roundSearch();
-            return;
+    hideDropdown();
+    unroundSearch();
+    showDropdownLoad();
+
+    if(value.length > 3) {
+        let city;
+        let state;
+
+        const lookup = ['washington', 'WA', 'oregon', 'OR', 'california', 'CA', 'idaho', 'ID', 'nevada', 'NV', 'montana', 'MT', 'wyoming', 'WY', 'utah', 'UT', 'arizona', 'AZ', 'colorado', 'CO', 'new mexico', 'NM', 'north dakota', 'ND', 'south dakota', 'SD', 'kansas', 'KS', 'oklahoma', 'OK', 'texas', 'TX', 'minnesota', 'MN', 'iowa', 'IA', 'missouri', 'MO', 'arkansas', 'AR', 'louisiana', 'LA', 'wisconsin', 'WI', 'illinois', 'IL', 'michigan', 'MI', 'indiana', 'IN', 'ohio', 'OH', 'kentucky', 'KY', 'tennessee', 'TN', 'mississippi', 'MS', 'alabama', 'AL', 'maine', 'ME', 'new hampshire', 'NH', 'vermont', 'VT', 'massachusettes', 'MA', 'rhode island', 'RI', 'connecticut', 'CT', 'new york', 'NY', 'new jersey', 'NJ', 'pennsylvania', 'delaware', 'DE', 'maryland', 'MD', 'west virginia', 'WV', 'virginia', 'VA', 'north carolina', 'NC', 'south carolina', 'SC', 'georgia', 'GA', 'florida', 'FL', 'alaska', 'AK', 'hawaii', 'HI', 'united states', 'US', 'united kingdom', 'UK', 'germany', 'DE', 'great britain', 'GB', 'france', 'FR', 'spain', 'ES', 'china', 'CN', 'russia', 'RU', 'japan', 'JP', 'india', 'IN', 'mexico', 'MX', 'canada', 'CA'];
+
+        let geoQuery;
+
+        if(value.includes(' ') || value.includes(',')) {
+            value.includes(',') ? city = value.slice(0, value.indexOf(',')) : city = value.slice(0, value.indexOf(' '));
+            value.includes(',') ? state = value.slice(value.indexOf(',') + 2, value.length) : state = value.slice(value.indexOf(' ') + 1, value.length);
+        } else {
+               city = value[0].toUpperCase() + value.slice(1, value.length).toLowerCase();
+
         }
 
-        hideDropdown();
-        unroundSearch();
-        showDropdownLoad();
 
-        if(value.length > 3) {
-            let city;
-            let state;
-
-            const lookup = ['washington', 'WA', 'oregon', 'OR', 'california', 'CA', 'idaho', 'ID', 'nevada', 'NV', 'montana', 'MT', 'wyoming', 'WY', 'utah', 'UT', 'arizona', 'AZ', 'colorado', 'CO', 'new mexico', 'NM', 'north dakota', 'ND', 'south dakota', 'SD', 'kansas', 'KS', 'oklahoma', 'OK', 'texas', 'TX', 'minnesota', 'MN', 'iowa', 'IA', 'missouri', 'MO', 'arkansas', 'AR', 'louisiana', 'LA', 'wisconsin', 'WI', 'illinois', 'IL', 'michigan', 'MI', 'indiana', 'IN', 'ohio', 'OH', 'kentucky', 'KY', 'tennessee', 'TN', 'mississippi', 'MS', 'alabama', 'AL', 'maine', 'ME', 'new hampshire', 'NH', 'vermont', 'VT', 'massachusettes', 'MA', 'rhode island', 'RI', 'connecticut', 'CT', 'new york', 'NY', 'new jersey', 'NJ', 'pennsylvania', 'delaware', 'DE', 'maryland', 'MD', 'west virginia', 'WV', 'virginia', 'VA', 'north carolina', 'NC', 'south carolina', 'SC', 'georgia', 'GA', 'florida', 'FL', 'alaska', 'AK', 'hawaii', 'HI', 'united states', 'US', 'united kingdom', 'UK', 'germany', 'DE', 'great britain', 'GB', 'france', 'FR', 'spain', 'ES', 'china', 'CN', 'russia', 'RU', 'japan', 'JP', 'india', 'IN', 'mexico', 'MX', 'canada', 'CA'];
-
-            let geoQuery;
-
-            if(value.includes(' ') || (',')) {
-                value.includes(',') ? city = value.slice(0, value.indexOf(',')) : city = value.slice(0, value.indexOf(' '));
-                value.includes(',') ? state = value.slice(value.indexOf(',') + 2, value.length) : state = value.slice(value.indexOf(' ') + 1, value.length);
-            } else {
-                city = city.slice(0, 1).toUpperCase() + city.slice(1, city.length).toLowerCase();
-
-            }
-
-
-            if(state) {
-                state.length === 2 ? state = state.toUpperCase() : state = lookup[lookup.indexOf(state.toLowerCase()) + 1];
-            }
+        if(state) {
+            state.length === 2 ? state = state.toUpperCase() : state = lookup[lookup.indexOf(state.toLowerCase()) + 1];
+        }
             
 
-            state ? geoQuery = `${city}, ${state}` : geoQuery = city;
-            console.log(geoQuery);
+        state ? geoQuery = `${city}, ${state}` : geoQuery = city;
+        console.log(geoQuery);
+    
 
-            fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${geoQuery}&limit=3&appid=d4feaceb86e31dd85a2f7d4ae6933cee`)
-                .then((res) => {
-                    return res.json();
-                })
-                .then((data) => {
-                    console.log(data);
+        fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${geoQuery}&limit=4&appid=${key}`)
+            .then((res) => {
+                return res.json();
+            })
+            .then((data) => {
+                console.log(data);
                     
-                    clearDropdown();
+                clearDropdown();
 
-                    for(loc of data) {
-                        let objLatLong = `lat=${loc.lat.toString()}&lon=${loc.lon.toString()}`;
-                        let locationName = loc.hasOwnProperty('state') ? `${loc.name}, ${loc.state}, ${loc.country}` : `${loc.name}, ${loc.state}`;
-                        const newChild = document.createElement('li');
-                        newChild.innerHTML = locationName;
-                        newChild.classList.add('dropdown-item')
-                        newChild.addEventListener('click', (target) => {
-                            let saveLatLong = objLatLong;
-                            let fillField = locationName;
-                            locationDisplayName = fillField;
-                            searchBox.value = fillField;
-                            latLong = saveLatLong;
-                        }) 
-                        docDrop.appendChild(newChild);
-                    }
-                    hideDropdownLoad();
-                    if(!docDrop.firstChild) {
-                        roundSearch();
-                        hideDropdown();
-                        hideLoad();
-                        return;
-                    }
-                    showDropdown();
-                })
-        }
-    }, 10)
+                for(let loc of data) {
+                    let objLatLong = `lat=${loc.lat.toString()}&lon=${loc.lon.toString()}`;
+                    let locationName = loc.hasOwnProperty('state') ? `${loc.name}, ${loc.state}, ${loc.country}` : `${loc.name}, ${loc.state}`;
+                    const newChild = document.createElement('li');
+                    newChild.innerHTML = locationName;
+                    newChild.classList.add('dropdown-item')
+                    
+                    newChild.addEventListener('click', (target) => {
+                        let saveLatLong = objLatLong;
+                        let fillField = locationName;
+                        locationDisplayName = fillField;
+                        searchBox.value = fillField;
+                        latLong = saveLatLong;
+                    }) 
+                    
+                    docDrop.appendChild(newChild);
+                }
+                
+                hideDropdownLoad();
+                
+                if(!docDrop.firstChild) {
+                    roundSearch();
+                    hideDropdown();
+                    hideLoad();
+                    return;
+                }
+                
+                showDropdown();
+            })
+    }
     
 })
 
@@ -239,7 +246,7 @@ searchButton.onclick = (event) => {
         return;
     }
 
-    fetch(`https://api.openweathermap.org/data/2.5/weather?${latLong}&appid=d4feaceb86e31dd85a2f7d4ae6933cee&units=imperial`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?${latLong}&appid=${key}&units=imperial`)
     .then(res => {
         return res.json();
     })
