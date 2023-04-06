@@ -4,7 +4,6 @@ import { apiKey } from "./key.mjs";
 const bodyWrapper = document.getElementById('bodyWrap');
 const searchWrapper = document.getElementById('search-form-wrapper');
 const titleWrapper = document.getElementById('title-wrapper');
-const title = document.getElementById('title');
 const clouds = document.getElementById('clouds');
 const loadCircle = document.getElementById('loading-circle-wrapper');
 const dropdownLoad = document.getElementById('dropdown-load-wrapper');
@@ -29,7 +28,7 @@ let locationDisplayName;
 const key = apiKey;
 
 //Dynamic Background
-if(hours >= 5 || hours >= 20) {
+if(hours <= 5 || hours >= 20) {
     document.body.style.background = 'url(images/stars-background.svg), linear-gradient(rgb(33, 62, 73), rgb(24, 42, 48), rgb(9, 15, 18))';
     titleWrapper.style.background = 'url(./images/moon.png)';
     titleWrapper.style.backgroundSize = 'cover';
@@ -79,19 +78,6 @@ hideBody();
 hideDropdown();
 
 //Search Box Functions
-function lowerSearch() {
-    searchWrapper.style.height = '50px';
-    searchWrapper.style.padding= '';
-    searchWrapper.style.backgroundColor = 'yellow'
-}
-
-function raiseSearch() {
-    searchWrapper.style.height = '50px';
-    searchWrapper.style.top = '0';
-    searchWrapper.style.backgroundColor = 'red'
-
-}
-
 function showSearch() {
     searchWrapper.style.display = 'block';
 }
